@@ -73,7 +73,7 @@ while verifying:
 
         #if check detected current char is a homoglyph
         if result_of_check:
-            #can dlete this print statement and add to homoglyph count
+            #can delete this print statement and add to homoglyph count
             print(f"'{char}' is a homoglyph for '{result_of_check}'")
 
         #if check shows it is a "normal" char
