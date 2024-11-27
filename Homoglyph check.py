@@ -88,6 +88,18 @@ while verifying:
     print(f"Total number of homoglyphs: {homoglyph_count}")
     print(f"Total number of real characters: {real_char_count}")
 
+    #initialize homoglyph to total character ratio
+    homoglypth_ratio = 0.5
+    is_valid = True
+
+    #if homoglyph ratio is at or above 50%, indicate search term is not valid
+    if homoglyph_count / (homoglyph_count + real_char_count) >= homoglypth_ratio:
+        is_valid = False
+        print("homoglyph ratio too high (for testing)")
+    
+    else:
+        print("This homoglyph ratio is acceptable (for testing)")
+
     #this is likely for Hamad, place this is in the 
     #area where the user's prompt was accepted.
     verifying = False
