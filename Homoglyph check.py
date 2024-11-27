@@ -95,11 +95,15 @@ while verifying:
     #if homoglyph ratio is at or above 50%, indicate search term is not valid
     if homoglyph_count / (homoglyph_count + real_char_count) >= homoglypth_ratio:
         is_valid = False
-        print("homoglyph ratio too high (for testing)")
+        print("\nInput Rejected:")
+        print("Your message contains too many homoglyphs (similar-looking characters).")
+        print(f"Current ratio: {(homoglyph_count / (homoglyph_count + real_char_count)):.2%}")
+        print(f"Maximum allowed ratio: {homoglypth_ratio:.2%}")
+        print("\nPlease try again with standard characters instead of:")
     
     else:
-        print("This homoglyph ratio is acceptable (for testing)")
+        print("\nInput Accepted:")
+        print("The homoglyph ratio is within acceptable limits.")
+        print(f"Current ratio: {(homoglyph_count / (homoglyph_count + real_char_count)):.2%}")
 
-    #this is likely for Hamad, place this is in the 
-    #area where the user's prompt was accepted.
     verifying = False
