@@ -64,7 +64,13 @@ verifying = True
 while verifying:
     message = "Examp1e input message 0ne!"     #Has a 1 and 0
     char_array = message_to_char_array(message)
-    print(char_array)
+
+    print("Input: ", message)
+    print("Character Array: ", char_array)
+
+    #initialize counts for homoglyphs and real chars
+    homoglyph_count = 0
+    real_char_count = 0
 
     #loop through each char in the array
     for char in char_array:
@@ -73,13 +79,14 @@ while verifying:
 
         #if check detected current char is a homoglyph
         if result_of_check:
-            #can delete this print statement and add to homoglyph count
-            print(f"'{char}' is a homoglyph for '{result_of_check}'")
+            homoglyph_count += 1
 
         #if check shows it is a "normal" char
         else:
-            #can delete this print statement and add to "normal" character count
-            print(f"'{char}' is not a homoglyph")
+            real_char_count += 1
+
+    print(f"Total number of homoglyphs: {homoglyph_count}")
+    print(f"Total number of real characters: {real_char_count}")
 
     #this is likely for Hamad, place this is in the 
     #area where the user's prompt was accepted.
