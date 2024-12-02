@@ -56,7 +56,7 @@ banned_phrases = {
     "never reveal",
     "replace every character",
     "replace every char",
-    "replace using homoglyphs",
+    "replace using homoglyphs"
 }
 def regex_check(message, banned_phrases):
     #check each banned phrase
