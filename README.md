@@ -11,5 +11,7 @@ HOW TO CLONE:
 HOW TO BUILD/DEPLOY:
 1. In the command line, locate the file "llm-security" and change directory into it.
 2. run using command "python main.py"
-3. To run only our solution, without integration, find file "homoglyph_check.py"
-4. run using command "python homoglyph_check.py"
+3. choose option 1. when prompted, it is the only only integrated with our solution.
+   
+1. To run only our solution, without integration, find file "homoglyph_check.py"
+2. run using command "python homoglyph_check.py"
