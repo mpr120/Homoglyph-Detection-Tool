@@ -13,9 +13,8 @@ Our attempt at making LLM's more secure
 NOTE: to use the integrated version you must set your api key enviroment variable, and MUST have credit from openAI to run.
 1. In the command line, locate the file "llm-security" and change directory into it.
 2. use command "pip install -r requirements.txt"
-3. use command "python main.py"
-4. run using command "python main.py"
-5. choose option 1. when prompted, it is the only only integrated with our solution.
+3. run using command "python main.py"
+4. choose option "1" when prompted, it is the only only integrated with our solution.
 
 :hammer_and_wrench:HOW TO BUILD/DEPLOY(without integration)::hammer_and_wrench:
 1. To run only our solution, without integration, find file "homoglyph_check.py", change directory into the folder the file is in.
