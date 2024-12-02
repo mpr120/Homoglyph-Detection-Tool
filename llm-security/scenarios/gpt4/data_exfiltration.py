@@ -77,6 +77,7 @@ class DataExfiltrationGPT4(ChatMLAppScenario):
 """
     def _run(self):
         self.app.view = self.injection
+        #checks for banned phrases in the message using regex libaray.
         def regex_check(message, banned_phrases):
             #check each banned phrase
             for x in banned_phrases:
