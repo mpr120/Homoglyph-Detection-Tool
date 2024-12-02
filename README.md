@@ -9,9 +9,13 @@ Our attempt at making LLM's more secure
 5. Paste the link you copied.
 
 :hammer_and_wrench:HOW TO BUILD/DEPLOY(with integration)::hammer_and_wrench:
+NOTE: to use the integrated version you must set your api key enviroment variable, and MUST have credit from openAI to run.
+
 1. In the command line, locate the file "llm-security" and change directory into it.
-2. run using command "python main.py"
-3. choose option 1. when prompted, it is the only only integrated with our solution.
+2. use command "pip install -r requirements.txt"
+3. use command "python main.py"
+4. run using command "python main.py"
+5. choose option 1. when prompted, it is the only only integrated with our solution.
 
 :hammer_and_wrench:HOW TO BUILD/DEPLOY(without integration)::hammer_and_wrench:
 1. To run only our solution, without integration, find file "homoglyph_check.py", change directory into the folder the file is in.
@@ -34,6 +38,8 @@ FUNCTIONALITY:
 :books:SCHOLARLY REFERENCES::books:
 prior research
 1. 
+
 contemporary work
-2. Kang, D., Li, X., Stoica, I., Guestrin, C., Zaharia, M., & Hashimoto, T. (2024). Exploiting programmatic behavior of LLMS: Dual-use through standard security attacks. 2024 IEEE Security and Privacy Workshops (SPW), 132–143. https://doi.org/10.1109/spw63631.2024.00018
+1. Kang, D., Li, X., Stoica, I., Guestrin, C., Zaharia, M., & Hashimoto, T. (2024). Exploiting programmatic behavior of LLMS: Dual-use through standard security attacks. 2024 IEEE Security and Privacy Workshops (SPW), 132–143. https://doi.org/10.1109/spw63631.2024.00018
+2. 
 
