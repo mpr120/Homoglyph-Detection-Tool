@@ -35,6 +35,7 @@ FUNCTIONALITY:
 3. Limitation to list of banned phrases.(extensive list would be needed for real world applications)
 
 :books:SCHOLARLY REFERENCES::books:
+
 prior research
 1. 
 
