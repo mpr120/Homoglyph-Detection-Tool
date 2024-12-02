@@ -13,6 +13,6 @@ HOW TO BUILD/DEPLOY(with integration):
 2. run using command "python main.py"
 3. choose option 1. when prompted, it is the only only integrated with our solution.
 
-HOW TO BUILD/DEPLOY(with integration):
+HOW TO BUILD/DEPLOY(without integration):
 1. To run only our solution, without integration, find file "homoglyph_check.py"
 2. run using command "python homoglyph_check.py"
