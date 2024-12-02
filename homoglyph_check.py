@@ -105,7 +105,7 @@ def homoglyph_staging(char_array):
     print(f"Total number of real characters: {real_char_count}")
 
     #initialize homoglyph to total character ratio
-    homoglypth_ratio = 0.5
+    homoglypth_ratio = 0.25
     is_valid = True
 
     #if homoglyph ratio is at or above 50%, indicate search term is not valid
