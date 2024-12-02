@@ -40,4 +40,5 @@ prior research
 1. Kang, D., Li, X., Stoica, I., Guestrin, C., Zaharia, M., & Hashimoto, T. (2024). Exploiting programmatic behavior of LLMS: Dual-use through standard security attacks. 2024 IEEE Security and Privacy Workshops (SPW), 132–143. https://doi.org/10.1109/spw63631.2024.00018
 
 contemporary work
-1. 
+1. Liu, Yi, et al. "Prompt Injection attack against LLM-integrated Applications." arXiv preprint 
+arXiv:2306.05499 (2023). 
