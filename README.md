@@ -24,7 +24,7 @@ Working:
 1. Checks for homoglyphs.
 2. Checks for banned phrases.
 3. Check homoglyph based on a set ratio.
-4. Denies chat if rules are broken.(rules = using high ratio of homoglyphs to cynoglyphs and using banned phrases)
+4. Denies chat if rules are broken.(rules = using high ratio of homoglyphs to normal acsii chars and using banned phrases)
 
 Not working:
 1. Breaks if not using provided scenario of continuing after scenario.
