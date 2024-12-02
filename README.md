@@ -30,7 +30,7 @@ FUNCTIONALITY:
 4. Denies chat if rules are broken.(rules = using high ratio of homoglyphs to normal acsii chars and using banned phrases)
 
 :x:Not working::x:
-1. Breaks if not using provided scenario of continuing after scenario.
+1. Breaks if using provided scenario and you continue after scenario has concluded.
 2. Limitation to list of homoglyphs.(extensive list would be needed for real world applications)
 3. Limitation to list of banned phrases.(extensive list would be needed for real world applications)
 
