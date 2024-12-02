@@ -19,6 +19,7 @@ HOW TO BUILD/DEPLOY(without integration):
 
 
 FUNCTIONALITY:
+
 Working:
 1. Checks for homoglyphs.
 2. Checks for banned phrases.
