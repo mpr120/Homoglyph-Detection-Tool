@@ -13,25 +13,25 @@ Our attempt at making LLM's more secure
 2. run using command "python main.py"
 3. choose option 1. when prompted, it is the only only integrated with our solution.
 
-HOW TO BUILD/DEPLOY(without integration):
+:hammer_and_wrench:HOW TO BUILD/DEPLOY(without integration)::hammer_and_wrench:
 1. To run only our solution, without integration, find file "homoglyph_check.py", change directory into the folder the file is in.
 2. run using command "python homoglyph_check.py"
 
 
 FUNCTIONALITY:
 
-Working:
+:white_check_mark:Working::white_check_mark:
 1. Checks for homoglyphs.
 2. Checks for banned phrases.
 3. Check homoglyph based on a set ratio.
 4. Denies chat if rules are broken.(rules = using high ratio of homoglyphs to normal acsii chars and using banned phrases)
 
-Not working:
+:x:Not working::x:
 1. Breaks if not using provided scenario of continuing after scenario.
 2. Limitation to list of homoglyphs.(extensive list would be needed for real world applications)
 3. Limitation to list of banned phrases.(extensive list would be needed for real world applications)
 
-SCHOLARLY REFERENCES:
+:books:SCHOLARLY REFERENCES::books:
 prior research
 1. 
 contemporary work
