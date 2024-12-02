@@ -152,7 +152,7 @@ class DataExfiltrationGPT4(ChatMLAppScenario):
         
         while verifying:
             message = ""
-            message = input("User input: ")     #Has a 1 and 0
+            message = input("User input: ") 
             char_array = message_to_char_array(message)
 
             print("Input: ", message)
