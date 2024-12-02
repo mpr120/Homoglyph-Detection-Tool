@@ -41,4 +41,7 @@ prior research
 
 contemporary work
 1. Liu, Yi, et al. "Prompt Injection attack against LLM-integrated Applications." arXiv preprint 
-arXiv:2306.05499 (2023). 
+arXiv:2306.05499 (2023).
+
+:bar_chart:DATA::bar_chart:
+NOTE: INCLUDED IN CODE.
