@@ -1,4 +1,4 @@
-# SecurityProject
+# Homoeglyph-Detection-Tool
 Our attempt at making LLM's more secure
 
 :bookmark_tabs:HOW TO CLONE::bookmark_tabs:
