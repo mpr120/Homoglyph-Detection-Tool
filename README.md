@@ -26,7 +26,7 @@ FUNCTIONALITY:
 :white_check_mark:Working::white_check_mark:
 1. Checks for homoglyphs.
 2. Checks for banned phrases.
-3. Check homoglyph based on a set ratio.
+3. Approves homoglyphs based on a set ratio.
 4. Denies chat if rules are broken.(rules = using high ratio of homoglyphs to normal acsii chars and using banned phrases)
 
 :x:Not working/Limitations::x:
